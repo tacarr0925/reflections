@@ -1,0 +1,29 @@
+git difference
+git diff commit_id1 commit_id2
+
+check version
+git --version
+
+commit ids you can use the first for chars fo the id
+
+clone a repository
+git clone {repository URL}
+
+git log
+git log
+q to quit
+
+colored output
+git config --global color.ui auto
+
+checkout -restet to a previous commit id for your local files
+git checkout {commit id}
+
+
+change defaults like colors
+click git bash icon then select defaults.
+
+set editor for gitbash
+it config --global core.editor {txt editor}
+
+in Udacity see seeting up your workspace on windows for more scripts for setting up.
