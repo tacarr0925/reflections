@@ -27,3 +27,34 @@ set editor for gitbash
 it config --global core.editor {txt editor}
 
 in Udacity see seeting up your workspace on windows for more scripts for setting up.
+
+start repository
+git init
+
+status of repository
+git status
+
+add to stagging area
+git add {filename}
+
+remove from stagging area
+git reset {filename}
+
+commit changes
+git commit -m {commit message}
+-m is to specify a message this optional.
+
+get the master branch
+git checkout master
+
+
+shows current branches
+git branch
+
+create new branch
+git branch {branch name}
+
+get the branch by name
+git checkout {new branch}
+
+
