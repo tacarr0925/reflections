@@ -58,3 +58,20 @@ get the branch by name
 git checkout {new branch}
 
 
+git log --graph --oneline {branches to visualize}
+
+create new branch then checks it out.
+git checkout -b {newbranch name}
+
+merge two branches
+git checkout {branch1}
+git merge {branch2}
+
+abort merge
+git merge --abort
+
+compare a commit to its paretn
+git show {commit_id}
+
+run garbage collection
+git gc
